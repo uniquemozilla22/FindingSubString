@@ -1,0 +1,9 @@
+In the file 'inputWord.txt', it contains  :debugger-> The distinct substring : "debug"
+ 
+In the file 'inputWord.txt', it contains  :{:>?/..}-> The distinct substring : "{:>?/."
+ 
+In the file 'inputWord.txt', it contains  :ALongWeekend-> The distinct substring : "ALongWe"
+ 
+In the file 'inputWord.txt', it contains  :carrot-> The distinct substring : "car"
+, "rot"
+ 

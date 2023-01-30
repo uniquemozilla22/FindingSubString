@@ -18,5 +18,13 @@
     <ClCompile Include="LongestSubString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SubstrExtractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SubstrExtractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

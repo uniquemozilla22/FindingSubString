@@ -1,0 +1,5 @@
+﻿  SubstrExtractor.cpp
+C:\Users\uniqf\source\repos\LongestSubString\LongestSubString\SubstrExtractor.cpp(70,27): warning C4129: ',': unrecognized character escape sequence
+C:\Users\uniqf\source\repos\LongestSubString\LongestSubString\SubstrExtractor.cpp(86,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\uniqf\source\repos\LongestSubString\LongestSubString\SubstrExtractor.cpp(109,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  LongestSubString.vcxproj -> C:\Users\uniqf\source\repos\LongestSubString\x64\Debug\LongestSubString.exe

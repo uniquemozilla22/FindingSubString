@@ -1,0 +1,73 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/uniqf/source/repos/LongestSubString/LongestSubString/SubstrExtractor.cpp"
+                },
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 18,
+                  "endLine": 83,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SubstrExtractor::find_ldsubstr",
+                  "decoratedName": "?find_ldsubstr@SubstrExtractor@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/uniqf/source/repos/LongestSubString/LongestSubString/SubstrExtractor.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5478a0fbd1c7fdbed088fc134a9008b20eb36b8fdad4a55693d5d7c459ea9fc1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/uniqf/source/repos/longestsubstring/longestsubstring/substrextractor.h"
+          },
+          "hashes": {
+            "sha-256": "3b85209ddc79c0ae208c6a8583a3723fca830334d3e340c4f74c8137fe922587"
+          }
+        }
+      ]
+    }
+  ]
+}

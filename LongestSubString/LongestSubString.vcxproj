@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LongestSubString.cpp" />
+    <ClCompile Include="SubstrExtractor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SubstrExtractor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
